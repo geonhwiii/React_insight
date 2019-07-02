@@ -32,3 +32,5 @@ Promise.reject(10)
 // 3. promise 사용 시 주의할점
 // - return 키워드 깜빡하지 않기
 // - promise는 불변 객체라는 사실 명심
+// - promise를 중첩 사용하지 않기
+// - 동기 코드 예외 처리 신경 쓰기
