@@ -1,25 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import MyComponent from './components/MyComponent';
+import Todo from './components/Todo';
+import MyComponent2 from './components/MyComponent2';
+import Todo2 from './components/Todo2';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+      <MyComponent />
+      <Todo />
+      <MyComponent2 />
+      <Todo2 title="저놈은" desc="뭐하는놈이지"/>
+    </div> 
   );
 }
 
