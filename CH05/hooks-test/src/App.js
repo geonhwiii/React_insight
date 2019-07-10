@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import WidthPrinter from './components/WidthPrinter';
+import Profile from './components/Profile';
 
 function App() {
   return (
     <div>
-      <WidthPrinter />
+      <Profile />
     </div>
     
   );
